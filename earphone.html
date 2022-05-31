@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title>diversion_earphone</title>
+<!--css-->
+<link href="css/ad.css" rel="stylesheet" type="text/css">
+<!--js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+
+<!--swiper-->	
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<link href="css/swiper_color.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+</style>
+</head>
+<body>
+	
+
+
+<div class="wraper">
+<!--banner-->
+<!-- Swiper -->	
+<main id="m1">
+	<section>
+		<div class="swiper-container" id="s_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/12_900.png" width="1920px" height="900px" alt=""/></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/12.5_900.png" width="1920px" height="900px" alt=""/></a></div>
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+<!--mobile-->
+<main id="m2">
+	<section>
+		<div class="swiper-container" id="v_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/12_phone.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/12.5_phone.png" /></a></div>
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+<!--pad-->
+<main id="m3">
+	<section>
+		<div class="swiper-container" id="u_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/12-pad.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/12.5_pad.png" /></a></div>
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+	
+
+<section>
+		<div class="logo"><img src="images/logo-2.png" width="20%" alt=""/></div>
+		<header><h1>[ earphone ]</h1></header>
+
+	</section>
+	
+	<section>
+	
+	<article>
+		<div class="text">
+			<p>裝置預設一個接收聲音的人。如果天線也是耳機，如果這個聽者同時也被聽? 天線可以是個對稱聽者? 抱著這樣的想像，拔除免焊接頭，將耳機插入左邊耳機座，即左右兩個耳機座都接上耳機。實踐過後發現耳機內部構造的組成讓作為天線的耳機變成接觸式麥克風，收錄近距離的原聲。於是使用左側耳機，聆聽抹布與天線的接觸。
+</p>
+		</div>
+		<div class="video">
+			<iframe width="100%" src="https://www.youtube-nocookie.com/embed/Npika44UN5M?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="audio">
+			<audio controls><source src="audio/Sequence 01_1.mp3" type="audio/mpeg"></audio>
+		</div>
+	</article>
+		
+	
+</section>
+	
+	
+</div>
+<!--footer-->
+<footer class="footer">
+	<p>all rights reserved</p>
+</footer>
+	
+<!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        speed:1000,
+		spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+        delay: 10000,
+        disableOnInteraction: false,
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+      });
+	</script>
+</body>
+</html>

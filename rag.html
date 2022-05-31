@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title>diversion_rag</title>
+<!--css-->
+<link href="css/ad.css" rel="stylesheet" type="text/css">
+<!--js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+
+<!--swiper-->	
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<link href="css/swiper_color.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto:wght@100;300&display=swap');
+</style>
+</head>
+<body>
+	
+
+
+<div class="wraper">
+		
+<!--banner-->
+<!-- Swiper -->	
+<main id="m1">
+	<section>
+		<div class="swiper-container" id="s_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/6_900.png" width="1920px" height="900px" alt=""/></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/5_900.png" width="1920px" height="900px" alt=""/></a></div>
+			  	<div class="swiper-slide"><a href="#"><img src="images/2_900.png" width="1920px" height="900px" alt=""/></a></div>
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+<!--mobile-->
+<main id="m2">
+	<section>
+		<div class="swiper-container" id="v_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/6-phone.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/5-phone.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/1-phone.png" /></a></div> 
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+<!--pad-->
+<main id="m3">
+	<section>
+		<div class="swiper-container" id="u_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/6-pad.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/5-pad.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/1-pad.png" /></a></div> 
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+
+	
+
+<section>
+	
+<div class="logo"><img src="images/logo-2.png" width="20%" alt=""/></div>
+		<header><h1>[ from rug to rag ]</h1></header>
+	
+	<article>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HdgAQXZH9to?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+
+		<div class="audio">
+			<audio controls><source src="audio/Sequence 01.mp3" type="audio/mpeg"></audio>
+		</div>
+
+		<div class="text">
+			<p>灰塵可被視作不直接談某物的屏障、在可見範圍無法獨立成為容器，支離破碎只能依附他物的塵埃；灰塵隨即脫落、能輕易被掃除，也能鍥而不捨再次附著。</p>
+		</div>
+	</article>
+		
+	
+</section>
+	
+	
+</div>
+<!--footer-->
+<footer class="footer">
+	<p>all rights reserved</p>
+</footer>
+	
+<!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        speed:1000,
+		spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+        delay: 10000,
+        disableOnInteraction: false,
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+      });
+	</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title>diversion_floss</title>
+<!--css-->
+<link href="css/ad.css" rel="stylesheet" type="text/css">
+<!--js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+
+<!--swiper-->	
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<link href="css/swiper_color.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+</style>
+</head>
+<body>
+	
+
+
+<div class="wraper">
+<!--banner-->
+<!-- Swiper -->	
+<main id="m1">
+	<section>
+		<div class="swiper-container" id="s_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/7_900.png" width="1920px" height="900px" alt=""/></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/13_900.png" width="1920px" height="900px" alt=""/></a></div>
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+<!--mobile-->
+<main id="m2">
+	<section>
+		<div class="swiper-container" id="v_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/8-phone.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/13-phone.png" /></a></div>
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+<!--pad-->
+<main id="m3">
+	<section>
+		<div class="swiper-container" id="u_pic">
+			<!--IMAGE-->
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><a href="#"><img src="images/8-pad.png" /></a></div>
+				<div class="swiper-slide"><a href="#"><img src="images/13_pad.png" /></a></div>
+			  </div>
+			<!--ARROWS-->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			<!--PAGINATION-->
+			  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+</main>	
+	
+
+<section>
+			<div class="logo"><img src="images/logo-2.png" width="20%" alt=""/></div>
+		<header><h1>[ floss ]</h1></header>
+
+	
+
+		
+
+	</section>
+	
+	
+	
+	<section>
+	
+	<article>
+		<div class="text">
+			<p>聽盡一個地方似乎是不可能的，那如何算是聽過一個地方? 只步行很可能導致場域之間無差別，只聽得見行走路徑上足夠強大的環境。觸手和姿態提供了小分岔的功能延展，聽見什麼除了身體姿態，同樣仰賴觸手的姿態。尋找已知的電器聆聽變成得以從高頻的圈圍之中逃脫的方式，此時電器成為疏漏的開口、較不刺耳的聲音容器，也是此裝置的引力朝向。</p>
+		</div>
+		<div class="video">
+			<iframe width="100%" src="https://www.youtube-nocookie.com/embed/gEYkY12cTl4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="audio">
+			<audio controls><source src="audio/Sequence 01_1.mp3" type="audio/mpeg"></audio>
+		</div>
+	</article>
+		
+	
+</section>
+	
+	
+</div>
+<!--footer-->
+<footer class="footer">
+	<p>all rights reserved</p>
+</footer>
+	
+<!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        speed:1000,
+		spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+        delay: 10000,
+        disableOnInteraction: false,
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+      });
+	</script>
+</body>
+</html>
