@@ -26,10 +26,12 @@ position:fixed;
 top:20px;
 left:20px;
 z-index: 100000px;
+	box-sizing: content-box;
 background-blend-mode:lighten;
 }
 a img{
-width:100%
+width:100%;
+
 }
 
 .logo{
@@ -179,7 +181,7 @@ footer{
 	color:#FFFFFF;
 }
 
-.warper{
+.wraper{
 	min-height: calc(100%-10px);
 }
 .footer{
