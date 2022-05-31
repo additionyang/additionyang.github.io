@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("banner.css");
+
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	background: #000000;
+}
+
+/*===============banner================*/
+
+html, body{
+	background:#000000;
+	height:100%;
+	margin:0;
+}
+
+#m1, #m2, #m3{
+	position:relative;
+	width:100%;
+	height:100%;
+	margin:0;
+	overflow:hidden;
+}
+
+article{
+	width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  margin: -150px 0 0 -300px;
+}
+
+.logo{
+
+  position: absolute;
+	top:100%;
+	left:44.5%;
+align-items: center;
+z-index: 10000px;
+}
+
+.video{
+
+	padding: 20px;
+	overflow: hidden;
+}
+
+.note{
+    margin:10px auto;
+	text-align: center;
+}
+
+.audio{
+  margin:30px auto;
+}
+.text{
+	box-sizing:content-box;
+	margin:30px auto;
+	color: #FFFFFF;
+}
+body p{
+	color: #FFFFFF;
+	line-height:2em;	
+	letter-spacing: 1px;
+}
+
+body h1{
+	padding-top:50px;
+	color: #FFFFFF;
+	line-height:1em;	
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+footer{
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	top: 190%;
+	left: 50%;
+	margin: -150px 0 0 -300px;
+	text-align: center;
+	
+}
+
+
+
+/*==============other rwd===============*/
+
+@media only screen and (min-width: 768px) {
+#m1, #m2, #m3{
+	
+}
+}
+
+@media only screen and (min-width: 1200px) {
+	
+#m1, #m2, #m3{
+
+}
+
+}

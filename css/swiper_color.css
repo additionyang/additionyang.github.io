@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+:root {
+  --swiper-theme-color:#000000;
+}
+.swiper-pagination-bullet {
+  width: 0px;
+  height: 20px;
+}

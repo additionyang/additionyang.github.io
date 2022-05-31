@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	background: #000000;
+}
+.righttop{
+	filter: opacity(1%);
+	position:absolute;
+	box-sizing:inherit;
+	top:130px;
+	left:600px;
+	z-index: 5000px;
+	overflow-x: hidden;
+}
+.righttop:hover{
+	filter: opacity(100%)
+}
+.righttop2{
+	filter: opacity(50%);
+	position:absolute;
+	box-sizing:inherit;
+	top:0px;
+	left:0px;
+	z-index: 5000px;
+	overflow-x: hidden;
+}
+.righttop2:hover{
+	filter: opacity(100%)
+}
+
+.righttop3{
+	filter: opacity(50%);
+	position:absolute;
+	box-sizing:inherit;
+	top:500px;
+	left:0px;
+	z-index: 5000px;
+	overflow-x: hidden;
+}
+.righttop3:hover{
+	filter: opacity(100%)
+}
+a{
+position:fixed;
+top:20px;
+left:20px;
+z-index: 100000px;
+background-blend-mode:lighten;
+}
+a img{
+width:100%
+}
+
+.logo{
+
+}
